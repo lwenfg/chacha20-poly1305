@@ -1,0 +1,69 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Executables
+chacha20poly1305_cli
+test_runner_unit
+test_runner_property
+benchmark_runner
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compilation database
+compile_commands.json
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Profiling data
+gmon.out
+perf.data
+perf.data.old
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# Test outputs
+test_results/
+*.test
+
+# Backup files
+*~
+*.orig
